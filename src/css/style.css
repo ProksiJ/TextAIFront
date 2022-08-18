@@ -145,8 +145,13 @@
     list-style-type: none;
 }
 
-.social li a img {
-    filter: grayscale(100%);
+svg {
+    transition: all .2s linear;
+}
+
+svg:hover {
+    fill: #1B446A;
+    
 }
 
 @media (max-width: 760px) {
