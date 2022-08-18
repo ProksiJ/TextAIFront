@@ -14,7 +14,7 @@
     justify-content: space-between;
     gap: 40px;
     padding: 30px 125px 40px;
-    background-image: url("../src/img/toppngNumbersBack.svg"), linear-gradient(to right, #19B600, #000000);
+    background-image: url("../img/toppngNumbersBack.svg"), linear-gradient(to right, #19B600, #000000);
     background-repeat: no-repeat, repeat;
     background-size: auto, cover;
     animation: AnimateBG 20s ease infinite;
