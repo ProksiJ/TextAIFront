@@ -20,14 +20,17 @@
     <main class="main">
         <form class="form">
             <div class="button-and-img">
-                <button type="submit" class="button">Original</button>
-                <img src="src/img/brainWithBack.svg" class="brain-img">
+                <button type="submit" id="open" class="button">Original</button>
+                <div id="image" class="image-container">
+                    <div id="opacity"></div>
+                    <div id="result">Originality: </div>
+                </div>
             </div>
-            <textarea class="textarea original-textarea" placeholder="Original text..." disabled></textarea>
+            <textarea id="info" class="textarea original-textarea" placeholder="Original text..." disabled></textarea>
         </form>
         <form class="form">
-            <button type="submit" class="button">Check</button>
-            <textarea class="textarea fragment-textarea" placeholder="Input text..."></textarea>
+            <button type="submit" id="send" class="button">Check</button>
+            <textarea id="value" class="textarea fragment-textarea" placeholder="Input text..."></textarea>
         </form>
     </main>
     <footer class="footer">
@@ -69,6 +72,7 @@
         <li></li>
         <li></li>
     </ul>
+    <script src="src/serverRequest.js"></script>
 </body>
 
 </html>
