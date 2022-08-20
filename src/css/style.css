@@ -200,13 +200,6 @@ svg:hover {
     font-weight: 500;
 }
 
-/* .opacity {
-    background-color: transparent;
-    filter: alpha(opacity=30);
-    -moz-opacity: 0.3;
-    opacity: 0.3;
-} */
-
 @media (max-width: 760px) {
     .body {
         padding: 30px;
@@ -226,9 +219,8 @@ svg:hover {
         align-items: center;
     }
 
-    .brain-img {
+    .image-container {
         width: 100%;
-        order: -1;
     }
 
     .button {
